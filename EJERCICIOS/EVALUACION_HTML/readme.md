@@ -267,6 +267,52 @@ Realiza la maquetación del siguiente ejemplo de página: (se aplica la rúbrica
   
 ![image](https://user-images.githubusercontent.com/91554777/164575358-76757050-5393-44a3-a075-0583e749b4e8.png)
 
+![image](https://user-images.githubusercontent.com/103067169/193431685-776b9c2f-b3b9-40b9-bad9-98e2807ebf48.png)
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Título página</title>
+        </head>
+        <body>
+            <header>
+                <h1>ENCABEZADO NIVEL1</h1>
+                <nav>
+                    <ul>
+                        <li> <a href="">ENLACE 1</a> </li>
+                        <li> <a href="">ENLACE 2</a> </li>
+                        <li> <a href="">ENLACE 3</a> </li>
+                        <li> <a href=""> ENLACE 4</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <section>
+                    <h2>Encabezado nivel 2</h2> <br><br>
+                    <p>Aquí va texto de primer párrafo</p><br>
+                    <p>Aquí va texto de segundo párrafo</p> <br>   
+                </section>
+                <aside>
+                    <h2>Apartado</h2>
+                    <p>Elije una opción</p>
+                    <form>
+                        <input type="checkbox" name="opción1 "  value="opción1"> Opción 1 <br>
+                        <input type="checkbox" name="opción2" value="opción2"> Opción 2 <br>
+                        <input type="checkbox" name="opción3" value="opción3">Opción 3 <br>
+                    </form>
+                </aside>
+            </main>
+
+            <footer>
+                <p>Sección de información de contacto, derechos de autor,etc.    </p>
+            </footer>
+        </body>
+        </html>
+
   Debes tener en cuenta los siguientes requisitos:
   
 ● Este ejercicio lo deberás realizar con las etiquetas de HTML5, haciendo uso de los
@@ -278,3 +324,4 @@ extensión .html
 ● No es necesario que incluyas los estilos (CSS) para cada elemento en esta
 actividad pero sí todo el código HTML5 que da estructura a cada una de las
 secciones que se muestran en la imagen de arriba.
+
